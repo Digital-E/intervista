@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'HappyTimesattheIKOB-Regular';
+  src: url('../Fonts/HappyTimesattheIKOB-Regular.otf');
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'HappyTimesattheIKOB-Regular';
+  font-weight: normal;
+  -webkit-font-smoothing : antialiased;
+}
+
+#top,
+#bottom {
+  height: 100vh;
+  background: blue;
+}
+
+h1 {
+  font-size: 150px;
+  line-height: 0.6em;
+  position: relative;
+  z-index: 2;
+}
+
+h2 {
+  font-size: 75px;
+  line-height: 1em;
+  position: relative;
+  z-index: 2;
+}
+
+h3 {
+  font-size: 45px;
+  line-height: 1em;
+  position: relative;
+  z-index: 2;
+}
+
+.une-minute__section-1 {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+}
+
+.une-minute__section-1__text-container {
+  padding: 35px;
+  color: white;
+}
+
+.une-minute__section-1__text-container__subtitle {
+  transform-origin: top center;
+  width: fit-content;
+}
+
+.une-minute__section-1__text-container > div {
+  margin-left: 165px;
+}
+
+.une-minute__section-1__text-container__text {
+  margin-top: 35px;
+}
+
+.une-minute__section-1__background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: red;
+  z-index: -1;
+}
+
+.une-minute__section-2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100vh;
+  z-index: 999;
+}
+
+.une-minute__section-2__tile {
+  width: 800px;
+  height: 50vh;
+  padding: 30px;
+  background: white;
+  border: 1px solid red;
+  color: red;
+  z-index: 999;
+  margin-bottom: 150px;
+}

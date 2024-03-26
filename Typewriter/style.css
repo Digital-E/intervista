@@ -1,0 +1,29 @@
+#intro {
+  min-height: 100vh;
+  padding: 150px 80px;
+  background-color: red;
+  font-size: 60px;
+  line-height: 65px;
+  color: white;
+}
+
+#intro p {
+  font-size: 60px;
+  line-height: 65px;
+  /*! width: 826px; */
+}
+
+#intro span {
+  display: inline-block;
+  color: white; /* Initial color of spans */
+  background: linear-gradient(to right, red 0%, white 0%);
+  background-size: 0 100%; /* Initial width of the background */
+  background-position: -5px 0; /* Center the background */
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease, color 0.3s ease; /* Transition for background size and color */
+}
+
+#intro span.highlighted {
+  background-size: calc(100% + 10px) 100%; /* Final width of the background */
+  color: red; /* Final color of spans */
+}

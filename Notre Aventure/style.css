@@ -1,0 +1,238 @@
+@font-face {
+  font-family: 'HappyTimesattheIKOB-Regular';
+  src: url('../Fonts/HappyTimesattheIKOB-Regular.otf');
+}
+
+@font-face {
+  font-family: 'HappyTimesattheIKOB-Italic';
+  src: url('../Fonts/HappyTimesattheIKOB-Italic');
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'HappyTimesattheIKOB-Regular';
+  font-weight: normal;
+  -webkit-font-smoothing : antialiased;
+}
+
+i {
+  font-family: 'HappyTimesattheIKOB-Italic';
+}
+
+#top,
+#bottom {
+  height: 100vh;
+  background: blue;
+}
+
+h1 {
+  font-size: 150px;
+  line-height: 1em;
+  position: relative;
+  z-index: 2;
+}
+
+h2 {
+  font-size: 75px;
+  line-height: 1em;
+  position: relative;
+  z-index: 2;
+}
+
+h3 {
+  font-size: 45px;
+  line-height: 1em;
+  position: relative;
+  z-index: 2;
+}
+
+.notre-aventure__section-1 {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+}
+
+.notre-aventure__section-1__text-container {
+  padding: 35px;
+  height: 100vh;
+}
+
+.notre-aventure__section-1__text-1 {
+  margin-top: 50px;
+  margin-left: 165px;
+  transform-origin: top center;
+  width: fit-content;
+}
+
+.notre-aventure__section-1__text-2 {
+  position: absolute;
+  left: 50%;
+  top: 200px;
+  transform: translate(-50%, 0);
+  width: 65%;
+  text-align: center;
+  color: red;
+} 
+
+.notre-aventure__section-1__text-3 {
+  position: absolute;
+  top: 200px;
+  left: 100vw;
+  width: 80%;
+  text-align: center;
+  color: red;
+} 
+
+.notre-aventure__section-1__text-4 {
+  position: absolute;
+  top: 200px;
+  left: 100vw;
+  width: 80%;
+  text-align: center;
+  color: red;
+} 
+
+.notre-aventure__section-1__text-5 {
+  position: absolute;
+  top: 200px;
+  left: 100vw;
+  width: 80%;
+  text-align: center;
+  color: red;
+} 
+
+.notre-aventure__section-1__text-6 {
+  position: absolute;
+  top: 200px;
+  left: 100vw;
+  width: 80%;
+  text-align: center;
+  color: red;
+} 
+
+.notre-aventure__section-1__text-7 {
+  position: absolute;
+  top: 200px;
+  left: 100vw;
+  width: 70%;
+  text-align: center;
+  color: red;
+} 
+
+.notre-aventure__section-1 img {
+  width: 100%;
+}
+
+.notre-aventure__section-1__image-1 {
+  position: fixed;
+  top: 200px;
+  left: 100vw;
+  width: 500px;
+}
+
+.notre-aventure__section-1__image-2 {
+  position: fixed;
+  bottom: 35px;
+  left: 100vw;
+  width: 500px;
+}
+
+.notre-aventure__section-1__image-3 {
+  position: fixed;
+  top: 200px;
+  left: 100vw;
+  width: 500px;
+}
+
+.notre-aventure__section-1__image-4 {
+  position: fixed;
+  top: 100px;
+  left: 100vw;
+  width: 500px;
+}
+
+.notre-aventure__section-1__image-5 {
+  position: fixed;
+  bottom: 100px;
+  left: 100vw;
+  width: 700px;
+}
+
+.notre-aventure__section-1__image-6 {
+  position: fixed;
+  top: 200px;
+  left: 50%;
+  width: 700px;
+  transform: translateX(-50%)
+}
+
+/* Image Stack */
+
+.notre-aventure__section-1__image-7 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 400px;
+  transform: translate(-50%, -50%) rotate(-5deg);
+}
+
+.notre-aventure__section-1__image-8 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%) rotate(2deg);
+}
+
+.notre-aventure__section-1__image-9 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%) rotate(-4deg);
+}
+
+.notre-aventure__section-1__image-10 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%) rotate(3deg);
+}
+
+.notre-aventure__section-1__image-11 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%) rotate(-2deg);
+}
+
+.notre-aventure__section-1__image-12 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%) rotate(1deg);
+}
+
+.notre-aventure__section-1__imagestack {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.notre-aventure__section-1__rectangle {
+  position: fixed;
+  bottom: -100%;
+  left: 55%;
+  height: 500px;
+  width: 300px;
+  background: red;
+  z-index: 999;
+  mix-blend-mode: color-burn;
+}

@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'HappyTimesattheIKOB-Regular';
+  src: url('../Fonts/HappyTimesattheIKOB-Regular.otf');
+}
+
+@font-face {
+  font-family: 'HappyTimesattheIKOB-Italic';
+  src: url('../Fonts/HappyTimesattheIKOB-Italic');
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'HappyTimesattheIKOB-Regular';
+  font-weight: normal;
+  /* -webkit-font-smoothing : antialiased; */
+}
+
+i {
+  font-family: 'HappyTimesattheIKOB-Italic';
+}
+
+#top,
+#bottom {
+  height: 100vh;
+  background: blue;
+}
+
+h1 {
+  font-size: 150px;
+  line-height: 1em;
+  position: relative;
+  z-index: 2;
+}
+
+h2 {
+  font-size: 75px;
+  line-height: 1em;
+  position: relative;
+  z-index: 2;
+}
+
+h3 {
+  font-size: 45px;
+  line-height: 1em;
+  position: relative;
+  z-index: 2;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1em;
+  position: relative;
+  z-index: 2;
+}
+
+.manifeste__section-1 {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+}
+
+.manifeste__section-1__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 35px 35px 0 35px;
+}
+
+.manifeste__section-1__numbers {
+  display: flex;
+}
+
+.manifeste__section-1__numbers h3 {
+  margin-left: 30px;
+}
+
+.manifeste__section-1__tile {
+  position: fixed;
+  display: flex;
+  width: 70vw;
+  padding: 0 35px;
+  top: 500px;
+  left: 100vw;
+}
+
+#manifeste img {
+  width: 100%;
+}
+
+.manifeste__section-1__tile__inner {
+  margin-top: 100px;
+  margin-left: 30px
+}
+
+.manifeste__section-1__tile__image {
+  position: relative;
+  margin-top: 20px;
+  width: 600px;
+  left: 140px;
+}
+
+.manifeste__section-1__final__image {
+  position: absolute;
+  width: 600px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.manifeste__bande-rouge {
+  position: fixed;
+  height: 120vh;
+  width: 200px;
+  background: red;
+  top: -10vh;
+  left: -400px;
+  transform: rotate(20deg);
+}

@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'HappyTimesattheIKOB-Regular';
+  src: url('../Fonts/HappyTimesattheIKOB-Regular.otf');
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'HappyTimesattheIKOB-Regular';
+  font-weight: normal;
+  -webkit-font-smoothing : antialiased;
+}
+
+#top,
+#bottom {
+  height: 200vh;
+  /* background: blue; */
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 1em;
+  position: relative;
+  z-index: 2;
+}
+
+h2 {
+  font-size: 75px;
+  line-height: 1em;
+  position: relative;
+  z-index: 2;
+}
+
+.nos-domaines__section-1 {
+  margin: 35px;
+}
+
+.nos-domaines__section-1__text {
+  margin-top: 35px;
+  margin-left: 130px;
+}
+
+.nos-domaines__section-2 {
+  position: relative;
+  margin-top: 35px;
+}
+
+.nos-domaines__section-2 h2 {
+  position: relative;
+  transform-origin: bottom left;
+  margin-left: 165px;
+}
+
+.nos-domaines__bande-rouge {
+  position: fixed;
+  background-color: red;
+  mix-blend-mode: color-burn;
+}
+
+.nos-domaines__bande-rouge-1 {
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 400px;
+}
+
+.nos-domaines__bande-rouge-2 {
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 200px;
+}
+
+.nos-domaines__bande-rouge-3 {
+  left: 0;
+  width: 100vw;
+  height: 300px;
+}
+
+.nos-domaines__bande-rouge-4 {
+  left: 0;
+  width: 100vw;
+  height: 400px;
+}
+
+.nos-domaines__section-2 img {
+  width: 100%;
+}
+
+.nos-domaines__image {
+  position: absolute;
+}
+
+.nos-domaines__image-1 {
+  top: 100px;
+  left: 35px;
+  width: 500px;
+  z-index: -1;
+}
+
+.nos-domaines__image-2 {
+  top: 500px;
+  left: 550px;
+  width: 500px;
+  z-index: -1;
+}
+
+.nos-domaines__image-3 {
+  top: 900px;
+  left: 550px;
+  width: 500px;
+  z-index: -1;
+}
+
+.nos-domaines__image-4 {
+  top: 1300px;
+  left: 35px;
+  width: 500px;
+  z-index: -1;
+}
+
+.nos-domaines__image-5 {
+  top: 1500px;
+  left: 550px;
+  width: 500px;
+  z-index: -1;
+}
+

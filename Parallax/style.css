@@ -1,0 +1,41 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#top,
+#bottom {
+  height: 100vh;
+  background: red;
+}
+#parallax-1 img {
+  display: block;
+}
+
+#parallax-1 img {
+  position: relative;
+  will-change: transform; /* Optimizes for animations */
+}
+
+#parallax-1 #img-1 {
+  width: 50vw;
+  left: 500px;
+  position: relative;
+  mix-blend-mode: multiply;
+}
+#parallax-1 #img-2 {
+  width: 50vw;
+  left: 150px;
+  position: relative;
+}
+#parallax-1 #img-3 {
+  width: 50vw;
+  left: 200px;
+  position: relative;
+}
+#parallax-1 #img-4 {
+  width: 30vw;
+  left: 150px;
+  position: relative;
+}
