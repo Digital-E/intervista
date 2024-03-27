@@ -188,7 +188,6 @@ ScrollTrigger.create({
 ScrollTrigger.create({
   trigger: '.nos-domaines__section-2',
   start: 'top bottom',
-  // end: 'top+=100',
   animation: image1,
   scrub: true,
   
@@ -197,8 +196,6 @@ ScrollTrigger.create({
 // Nos Domaines Image 2 ScrollTrigger
 ScrollTrigger.create({
   trigger: '.nos-domaines__image-2',
-  // start: 'top bottom',
-  // end: 'top+=100',
   animation: image2,
   scrub: true,
   
@@ -207,8 +204,6 @@ ScrollTrigger.create({
 // Nos Domaines Image 3 ScrollTrigger
 ScrollTrigger.create({
   trigger: '.nos-domaines__image-3',
-  // start: 'top bottom',
-  // end: 'top+=100',
   animation: image3,
   scrub: true,
   
@@ -217,8 +212,6 @@ ScrollTrigger.create({
 // Nos Domaines Image 4 ScrollTrigger
 ScrollTrigger.create({
   trigger: '.nos-domaines__image-4',
-  // start: 'top bottom',
-  // end: 'top+=100',
   animation: image4,
   scrub: true,
   
@@ -227,8 +220,6 @@ ScrollTrigger.create({
 // Nos Domaines Image 5 ScrollTrigger
 ScrollTrigger.create({
   trigger: '.nos-domaines__image-5',
-  // start: 'top bottom',
-  // end: 'top+=100',
   animation: image5,
   scrub: true,
   

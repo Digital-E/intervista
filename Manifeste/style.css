@@ -116,4 +116,6 @@ p {
   top: -10vh;
   left: -400px;
   transform: rotate(20deg);
+  z-index: 999;
+  mix-blend-mode: color-burn;
 }

@@ -7,9 +7,7 @@ let tl = gsap.timeline({
     trigger: '.manifeste__section-1',
     start: 'top top',
     end: 'bottom+=10000',
-    // animation: backgroundAnimation,
     pin: true,
-    // pinSpacing: false,
     scrub: true,
   }
 })
@@ -18,6 +16,7 @@ let easeVar = "power1.inOut"
 
 let currentIndex = 0;
 
+// Notre Aventure Tile Animation
 document.querySelectorAll(".manifeste__section-1__tile").forEach((item, index) => {
   tl.to(item, {
     x: -190,
@@ -29,7 +28,7 @@ document.querySelectorAll(".manifeste__section-1__tile").forEach((item, index) =
   )
 
   tl.to(item, {
-    x: -window.innerWidth,
+    x: "-100vw",
     y: -300,
     duration: 1,
     ease: easeVar,
@@ -47,13 +46,14 @@ document.querySelectorAll(".manifeste__section-1__tile").forEach((item, index) =
   )
 
   tl.to(item, {
-    x: `-=${window.innerWidth}`,
+    x: "-=100vw",
     duration: 1,
     ease: easeVar
   },
   )
 })
 
+// Notre Aventure Final Image Animation
 tl.fromTo(".manifeste__section-1__final__image", 
 {
   x: "100vw"

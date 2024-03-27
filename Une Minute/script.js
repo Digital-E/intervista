@@ -65,15 +65,11 @@ ScrollTrigger.create({
   scrub: true,
 });
 
-let uneMinuteSection2Height = document.querySelector('.une-minute__section-2').getBoundingClientRect().height
-
 // Une Minute Pin Animation
 ScrollTrigger.create({
   trigger: '.une-minute__section-1',
   start: 'top top',
-  end: `+=${uneMinuteSection2Height + window.innerHeight + window.innerHeight / 4 }`,
-  // end: 'bottom top+=200',
-  // animation: backgroundAnimation,
+  end: () => `+=${document.querySelector('.une-minute__section-2').getBoundingClientRect().height + window.innerHeight + window.innerHeight / 4 }`,
   pin: true,
   pinSpacing: false,
   scrub: true,
@@ -93,7 +89,6 @@ let uneMinuteSection2Animation = gsap.fromTo('.une-minute__section-2',
 ScrollTrigger.create({
   trigger: '.une-minute__section-2',
   start: 'bottom bottom',
-  // end: 'top+=100',
   animation: uneMinuteSection2Animation,
   scrub: true,
 })
