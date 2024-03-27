@@ -7,17 +7,38 @@
 #bottom {
   height: 200vh;
 }
-#carousel-zoom {
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: grey;
+  z-index: 999;
+  display: none;
+}
+
+.intro-menu {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: grey;
+}
+
+.carousel-zoom {
   height: 100vh;
   position: relative;
   overflow: hidden;
   width: 100vw;
+  background: white;
 }
 
-#carousel-zoom .inside {
+.carousel-zoom .inside {
   width: calc(100% - 60px);
   position: relative;
-  height: calc(100% - 30px);
+  height: calc(100% - 140px);
   top: 30px;
   left: 30px;
   overflow: hidden;
@@ -39,4 +60,40 @@
 }
 #slide-2 {
   transform-origin: top left;
+}
+
+/* Highlight Slide */
+
+.highlight-slide {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  padding: 150px 400px;
+  background-color: red;
+  z-index: -1;
+  font-size: 60px;
+  line-height: 65px;
+  color: white;
+}
+
+.highlight-slide p {
+  font-size: 60px;
+  line-height: 65px;
+}
+
+.highlight-slide span {
+  display: inline-block;
+  color: white; /* Initial color of spans */
+  background: linear-gradient(to right, red 0%, white 0%);
+  background-size: 0 100%; /* Initial width of the background */
+  background-position: -5px 0; /* Center the background */
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease, color 0.3s ease; /* Transition for background size and color */
+}
+
+.highlight-slide span.highlighted {
+  background-size: calc(100% + 10px) 100%; /* Final width of the background */
+  color: red; /* Final color of spans */
 }

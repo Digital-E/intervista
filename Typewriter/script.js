@@ -34,7 +34,7 @@ ScrollTrigger.create({
 });
 
 function typewritterEffect() {
-  const content = $('#content-typewritter').html();
+  const content = $('#content-typewriter').html();
   const typed = new Typed('#intro', {
     strings: [content],
     typeSpeed: -400,
