@@ -16,7 +16,16 @@ tl.fromTo(
   { scale: 1, duration: 1.2 },
   '-=0.5'
 );
+
 tl.to(".carousel-zoom", {y: () => -window.innerHeight + 100, duration: 2})
+
+tl.to(".carousel-zoom", {y: "+=0", duration: 1, onStart: () => {
+  gsap.to(".span", {
+    duration: 1,
+    stagger: 0.2,
+    css: {className: "highlighted"}
+  })
+}})
 
 ScrollTrigger.create({
   trigger: '#intro',
@@ -32,8 +41,8 @@ ScrollTrigger.create({
 let currentIndex = 0;
 let highlightElements = 6;
 
-tl.to(".span", {
-  duration: 1,
-  stagger: 1,
-  css: {className: "highlighted"}
-})
+// tl.to(".span", {
+//   duration: 0,
+//   stagger: 1,
+//   css: {className: "highlighted"}
+// })

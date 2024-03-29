@@ -70,11 +70,13 @@
   left: 0;
   height: 100vh;
   width: 100vw;
-  padding: 150px 400px;
+  padding: 150px 22vw;
   background-color: red;
   z-index: -1;
-  font-size: 60px;
+  font-size: 3.37vw;
+  /* font-size: 60px; */
   line-height: 65px;
+  line-height: 1.1em;
   color: white;
 }
 
